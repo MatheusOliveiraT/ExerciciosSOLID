@@ -1,9 +1,9 @@
 package Demeter;
 
 public class Main {
-    private C c1;
+    private A a1;
 
     public void doSomething() {
-        this.c1.getB1().getA1().getA3();
+        this.a1.getA3();
     }
 }

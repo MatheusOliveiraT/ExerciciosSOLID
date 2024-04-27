@@ -1,6 +1,6 @@
 package ISP;
 
-public class Vendedor implements Funcionario {
+public class Vendedor implements Funcionario, Comissao {
     @Override
     public int salario() {
         return 1;

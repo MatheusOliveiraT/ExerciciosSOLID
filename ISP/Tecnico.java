@@ -5,9 +5,4 @@ public class Tecnico implements Funcionario {
     public int salario() {
         return 1;
     }
-
-    @Override
-    public int comissao() {
-        return 1;
-    }
 }

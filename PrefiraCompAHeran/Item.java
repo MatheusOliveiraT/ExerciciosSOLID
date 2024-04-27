@@ -1,6 +1,7 @@
 package PrefiraCompAHeran;
 
-public class Item extends Produto {
+public class Item {
+    private Produto produto;
     private int id;
     private int quantidade;
 }
